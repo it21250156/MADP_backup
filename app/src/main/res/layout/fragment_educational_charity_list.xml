@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".educational_charity_list">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/baseline_school_24">
+                </ImageView>
+                <TextView
+                    android:id="@+id/newsFeedHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textStyle="bold"
+                    android:text="EDUCATION"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_edu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/blue2"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tv_edu_chari1"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Arunella - Save the Children's future"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_edu_read1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read More"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue3"
+                android:layout_marginBottom="8dp">
+            </Button>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_edu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/blue2"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_edu1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/tv_edu_chari2"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Little Firends"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_edu_read2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read More"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue3"
+                android:layout_marginBottom="8dp">
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_edu3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/blue2"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cv_edu2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:id="@+id/tv_edu_chari3"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Edu 1st"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_edu_read3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Read More"
+                android:textSize="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/blue3"
+                android:layout_marginBottom="8dp">
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_edu_back"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/blue1"
+        android:text="BACK"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

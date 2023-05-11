@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".charity_admin">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="408dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:background="#303F9E"
+        android:backgroundTint="#303F9F"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/text_admin"
+        android:textColor="#EFEDED"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="298dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#0288D1"
+        android:text="Educational charityes"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="300dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#0288D1"
+        android:text="Food Charityes"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="291dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#0288D1"
+        android:text="Other Charityes"
+        android:textColor="#151313"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="291dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#0288D1"
+        android:text="Helth Care Charityes"
+        android:textColor="#070707"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="398dp"
+        android:layout_height="45dp"
+        android:background="#303F9F"
+        android:gravity="center_horizontal|left|center_vertical"
+        android:text="Manage Charityes"
+        android:textColor="#D8D4D4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="183dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="116dp"
+        android:backgroundTint="#C2185B"
+        android:text="@string/btn_back"
+        android:textColor="#100F0F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#C2185B"
+    tools:context=".edu_charity_admin">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="60dp"
+            android:text="Charities"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue1"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        tools:layout_editor_absoluteX="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+
+            <TextView
+                android:id="@+id/tv_admin_char1"
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingStart="8dp"
+                android:text="Arunella - Save the Children's Futere"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_admin_post_edit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_edit_24"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv_admin_post_delete1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_delete_24"></ImageView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue1"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        tools:layout_editor_absoluteX="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+
+            <TextView
+                android:id="@+id/tv_admin_char2"
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="The Asrana Sarana"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_admin_char_edit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_edit_24"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv_admin_char_delete2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_delete_24"></ImageView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/blue1"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5"
+        tools:layout_editor_absoluteX="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+
+            <TextView
+                android:id="@+id/tv_admin_char3"
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:text="Little Friends"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/iv_admin_char_edit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_edit_24"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv_admin_char_delete3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:src="@drawable/baseline_delete_24"></ImageView>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue2"
+        android:src="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="30dp"
+        android:onClick="createCharity"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

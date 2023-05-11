@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">OneClickDonate</string>
+    <string name="btnResetPW">Reset Password</string>
+    <string name="edt_mobileNo">0763302134</string>
+    <string name="tv_mobileNo">Mobile Number</string>
+    <string name="edt_email">janith@gmail.com</string>
+    <string name="tv_email">Email</string>
+
+
+    <string name="btneditprofile">Save Changes</string>
+    <string name="btn_donationhistory">My Donation History</string>
+    <string name="title_activity_login">Leanback loginActivity</string>
+    <string name="postTxt1"><![CDATA[The "Asara Sarana" charity donates Food and Clothes to people who are struggling due to crisis in Sri Lanka]]></string>
+    <string name="postTxt2"><![CDATA[The Welfare Society of Ampara provide educational requirements for school children]]></string>
+    <string name="btn_view1">VIEW</string>
+    <string name="btn_view2">VIEW</string>
+    <string name="btn_view3">VIEW</string>
+    <string name="selected_charity">ARUNELLA</string>
+    <string name="text_select_charity">Selected Charity</string>
+    <string name="text_selected_charity">Selected Charity</string>
+    <string name="text_charity_name">ARUNELLA</string>
+    <string name="text_discrip">We are conducting this Arunella program for 6 consecutive years on October 1st, and on that day we will provide the necessary books and equipment to the students studying in the poor areas.</string>
+    <string name="btn_back">BACK</string>
+
+
+    <string name="btn_donate">DONATION</string>
+    <string name="text_admin">Charity Administration</string>
+    <string name="text_edu_manage">Educational Charity Management</string>
+    <string name="search">Serch by Charity Name</string>
+    <string name="btn_add1">Add New Charity to the System</string>
+    <string name="btn_charity1_update">UPDATE</string>
+    <string name="btn_charity1_delete">DELETE</string>
+    <string name="btn_charity2_update">UPDATE</string>
+    <string name="btn_charity2_delete">DELETE</string>
+    <string name="btn_back2">BACK</string>
+    <string name="txt_new_charity">Add New Charity</string>
+    <string name="btn_new_submit">SUBMIT</string>
+    <string name="btn_back3">BACK</string>
+    <string name="btn_back4">BACK</string>
+    <string name="btn_update_submit">SUBMIT</string>
+</resources>
