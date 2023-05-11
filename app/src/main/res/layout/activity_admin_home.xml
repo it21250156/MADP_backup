@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminHome">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="60dp"
+            android:text="Welcome Admin!"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_admin_charity"
+        android:layout_width="@dimen/btnWidthLong"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/blue1"
+        android:text="Charities"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        android:onClick="adminCharity">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_admin_posts"
+        android:layout_width="@dimen/btnWidthLong"
+        android:layout_height="@dimen/btnHeight"
+        android:text="Posts"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/blue1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_admin_charity"
+        android:onClick="adminPosts">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_admin_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/red"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_admin_posts"
+        app:layout_constraintVertical_bias="0.797" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn_admin_users"-->
+<!--        android:layout_width="@dimen/btnWidthLong"-->
+<!--        android:layout_height="@dimen/btnHeight"-->
+<!--        android:text="Users"-->
+<!--        android:layout_margin="40dp"-->
+<!--        android:backgroundTint="@color/blue1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btn_admin_posts">-->
+
+<!--    </Button>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

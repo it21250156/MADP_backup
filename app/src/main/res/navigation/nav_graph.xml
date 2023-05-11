@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profile2">
+
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.madproject.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile2_to_resetPW"
+            app:destination="@id/resetPW" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPW"
+        android:name="com.example.madproject.ResetPW"
+        android:label="fragment_reset_p_w"
+        tools:layout="@layout/fragment_reset_p_w" />
+</navigation>

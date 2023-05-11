@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MADProject"
+        tools:targetApi="31" >
+        <activity
+            android:name=".selected_admin_charity"
+            android:exported="false" />
+        <activity
+            android:name=".selected_charity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPostForm"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPostListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".update_charity"
+            android:exported="false" />
+        <activity
+            android:name=".Add_new_chariti"
+            android:exported="false" />
+        <activity
+            android:name=".Edu_charity_admin"
+            android:exported="false" />
+        <activity
+            android:name=".Charity_admin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity2"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerMain"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
